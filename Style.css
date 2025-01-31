@@ -1,0 +1,350 @@
+/* Aplicar Arial a toda la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    height: 100vh;
+
+}
+/* ss */
+
+/* Estilos generales para la navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color: #007bff;
+    margin: 0;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.descripcion {
+    justify-content: center;
+    text-align: center;
+}
+.fotos {
+    display: flex;
+    flex-direction: grawp;
+    border: 3px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    text-align: center
+}
+.whats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.compromisito{
+    display: flex;
+    padding: auto;
+    border: 1px solid black;
+    text-align: center;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-decoration: color(srgb red green blue);
+}
+/* hola */
+nav ul li {
+    margin: 0 15px;
+}
+.seccion-ag {
+    text-align: center;
+    text-decoration: solid;
+    text-transform: uppercase;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background 0.3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+/* Estilos para los contenedores */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+/* Estilos de botones */
+button {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Diseño con Grid para los productos */
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    margin-top: 27%;
+    border: 1px solid #ccc;
+    position: center;
+}
+/* }
+.Servifooter {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    margin-top: 27%;
+    border: 1px solid #ccc;
+    position: center;
+}
+.Contactofooter {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    margin-top: 27%;
+    border: 1px solid #ccc;
+    position: center;
+} */
+
+
+.Bordear {
+    background-color: white;
+    color: green;
+    text-align: justify;
+    padding: 20px;
+    border: 1px solid gray;
+    grid-template-rows: auto;
+}
+
+.Resaltar {
+    text-decoration: solid;
+    text-decoration: unset;
+    text-align: center;
+    border-bottom: 1px;
+    text-transform: capitalize
+}
+
+.Servicio-h2 {
+    text-decoration: underline;
+    padding: 30 50 20;
+}
+
+.Servicio {
+    border: 1px solid black;
+    margin: auto;
+    padding: auto;
+}
+.grid-container{
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 80px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    grid-auto-flow: row;
+    align-items: center;
+}
+
+.Tittle-pet {
+    text-align: center;
+    border: 1px solid;
+    align-items: center;
+}
+
+.proprodu {
+    text-align: center;
+}
+h1 {
+    align-items: center;
+    text-align: center;
+}
+
+.form-adopcion {
+    grid-row: 4;
+    
+}
+
+/* Estilo para las imágenes */
+.img-pet {
+    margin-bottom: 15px; /* Espaciado entre las imágenes */
+    transition: transform 0.3s ease; /* Efecto de zoom al pasar el mouse */
+    border: 1px solid black; /* Borde de 1px, color gris claro */
+    padding: 5px; /* Espaciado interno alrededor de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.img-pet:hover {
+    transform: scale(1.05); /* Aumento de tamaño al pasar el mouse */
+}
+
+.grid-container {
+    text-align: center;
+}
+
+/* Asegurarse de que las imágenes no excedan el tamaño */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.Formulario {
+    border: 1px solid black;
+    margin: auto;
+    padding: 5%;
+}
+
+.row {
+    height: auto;
+    border: 1px solid black;
+    padding: 100px;
+}
+
+.Titulacion-productos{
+    text-align: center;
+    text-decoration: solid;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.form-adopcion {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: initial;
+    justify-content: flex-start;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.titulo {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.subtitulo {
+    text-align: center;
+    color: blue;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.formulario-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.campo label {
+    width: 200px;
+    font-weight: bold;
+}
+
+.campo input, .campo textarea {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+}
+
+.informacion {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.informacion img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
